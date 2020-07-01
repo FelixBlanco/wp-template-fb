@@ -131,23 +131,29 @@
             <div class="carousel-inner mb-5">
               <div class="carousel-item active">
                 <ul class="nav justify-content-center">
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/ruca.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/ruleta.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/elev.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/deposito-central.png' ?>" class="d-block w-100" width="200"></li>
+                  <?php 
+                    foreach($experiencia_slide_uno as $s_u){
+                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_u['url']."' class='d-block w-100' width='200'></li>";
+                    }
+                  ?>
                 </ul>
               </div>
               <div class="carousel-item">
                 <ul class="nav justify-content-center">
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/farmagroup.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/jimenez-puertas.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/teraima.png' ?>" class="d-block w-100" width="200"></li>
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/pdvsa.png' ?>" class="d-block w-100" width="200"></li>
+                  <?php 
+                    foreach($experiencia_slide_dos as $s_d){
+                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_d['url']."' class='d-block w-100' width='200'></li>";
+                    }
+                  ?>
                 </ul>
               </div>
               <div class="carousel-item">
                 <ul class="nav justify-content-center">
-                  <li class="nav-item ml-2 mt-1"><img src="<?php echo get_stylesheet_directory_uri().'/img/experiencia/EMJGNR.png' ?>" class="d-block w-100" width="200"></li>
+                  <?php 
+                    foreach($experiencia_slide_tres as $s_t){
+                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_t['url']."' class='d-block w-100' width='200'></li>";
+                    }
+                  ?>
                 </ul>
               </div>
             </div>

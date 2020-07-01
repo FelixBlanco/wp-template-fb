@@ -17,6 +17,26 @@ if ( function_exists( 'add_theme_support' ) ){
 }
 
 
+$experiencia_slide_uno = [
+	[ 'name' => 'ruca', 'url' => '/img/experiencia/ruca.png' ],
+	[ 'name' => 'panza', 'url' => '/img/experiencia/panza.png' ],
+	[ 'name' => 'caserito', 'url' => '/img/experiencia/palcaserito.png' ],
+	[ 'name' => 'ruleta', 'url' => '/img/experiencia/ruleta.png' ]
+];
+
+$experiencia_slide_dos = [
+	[ 'name' => 'elev', 'url' => '/img/experiencia/elev.png' ],
+	[ 'name' => 'deposito-central', 'url' => '/img/experiencia/deposito-central.png' ],
+	[ 'name' => 'farmagroup', 'url' => '/img/experiencia/farmagroup.png' ],
+	[ 'name' => 'jimenez-puertas', 'url' => '/img/experiencia/jimenez-puertas.png' ],
+];
+
+$experiencia_slide_tres = [
+	[ 'name' => 'teraima', 'url' => '/img/experiencia/teraima.png' ],
+	[ 'name' => 'pdvsa', 'url' => '/img/experiencia/pdvsa.png' ],
+	[ 'name' => 'EMJGNR', 'url' => '/img/experiencia/EMJGNR.png' ],
+];
+
 $certificaciones = [
 	[
 		'title' => 'Curso de Introducción a Laravel',
