@@ -10,56 +10,61 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 */
 
-@import url('https://fonts.googleapis.com/css?family=Merienda|Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Monda&family=Montserrat:wght@500&display=swap');
 
 *{ margin: 0; }
 
-html,body{ margin: 0; font-family: 'Montserrat', sans-serif; }
+/* 
+  font-family: 'Merienda One', cursive;
+  font-family: 'Monda', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+*/
 
-.ff-monserrat{ font-family: 'Montserrat', sans-serif; }
-.ff-merienda{ font-family: 'Merienda', cursive; }
-
-.bg-white{ background-color: #ffffff; }
-.bg-dark{ background-color: #2c2d32; }
-
-.txt-color-azul-claro{ color : #019bdd }
-.txt-color-blue-oscuro{ color : #0a4065 }
-
-
-.fz-11px{ font-size: 11px; }
-.fz-13px{ font-size: 13px; }
-.fz-20px{ font-size: 20px; }
-.fz-25px{ font-size: 25px; }
-.fz-30px{ font-size: 30px; }
-
-.fz-2em{ font-size: 2em; }
-.fz-3em{ font-size: 3em; }
-.fz-4em{ font-size: 4em; }
-
-.link-style{ 
-  color: black; 
-  text-decoration: none;
-}
-.link-style:hover{ 
-  color: #019bdd; 
-  text-decoration: none;
+body{
+  font-family: 'Monda', sans-serif;
 }
 
-.cont-post{ height: 520px; }
-.cont-all-post{ height: 334px; }
+.body-gray{ background-color: #f8f9fa;}
 
-.line-azul{
-  background: #019bdd;
-  border-radius: 10px;
-  color: #019bdd;
-  width: 200px;
-  height: 4px;
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Merienda One', cursive;
 }
 
-.mt-10{ margin-top: 10%; }
+#img-landing{ border: 5px dashed #118be2; }
 
-.bg-code{
-  background-image: url('img/bg-code.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.cont-title{      
+  padding: 20px;
+  margin-top: 13%;
+}
+
+.cont-title > h1 {
+  color: #0c4064;
+  font-family: 'Merienda One', cursive;
+  font-size: 4.5rem;
+}
+
+.cont-title > small{
+  color: rgb(112, 112, 112);
+  font-size: 144%;
+}
+
+.l-b-blue { border-bottom: 8px solid #118be2; }
+.no-link a{ 
+  color: black;
+  text-decoration: none; 
+}
+
+.title {
+  color: #1777a3;
+  border-left: 4px solid #1777a3;
+}
+
+/* Show Articulos */
+.cont-parrafo{
+  font-size: 1.5em;
+}
+
+.navbar_menu a{
+  font-size: 25px;
 }

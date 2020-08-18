@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Felix Blanco | Fullstack Develloper</title>
+  <title>Felix Blanco | Fullstack Developer</title>
 
-  <meta name="description" content="Programador de aplicaciones web, movil">
-  <meta name="keywords" content="Fullstack Develloper, Laravel, React, Angular, React Nactive, Mysql, Linux">
+  <meta name="description" content="Web personal de un joven que escribe mucho codigo a cada rato.">
+  <meta name="keywords" content="Fullstack Developer, Laravel, React, Angular, React Nactive, Ionic Mysql, Linux">
   <meta name="author" content="Felix Blanco">
   
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri()."/img/favicon.ico" ?>" type="image/x-icon">
   <link rel="icon" href="<?php echo get_stylesheet_directory_uri()."/img/favicon.ico" ?>" type="image/x-icon">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
   
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/css/animate.css" ?>">
 </head>
-<body>
+<body class="body-gray">
   
 
 <div class="container-fluid">
@@ -35,7 +35,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link fz-25px ff-merienda" href="https://blancofelix.com/post/" >Post</a>
+                <a class="nav-link" href="https://blancofelix.com/post/" >
+                  <span style="font-size : 25px; ">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-heading" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                      <path fill-rule="evenodd" d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z"/>
+                    </svg>
+                    Post                  
+                  </span>
+                </a>
               </li>                 
             </ul>
           </div>

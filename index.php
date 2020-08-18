@@ -1,21 +1,15 @@
-<?php get_header('landing') ?>
+<?php get_header('header') ?>
 
-
-<div class=" bg-code py-5">
-    <div class="container mt-4">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <img src="<?php echo get_stylesheet_directory_uri().'/img/fb-400x400.jpg'; ?>" class="rounded-circle img-fluid mx-auto d-block" width="320">
-          <h1 class="text-center mt-2 ff-merienda fz-4em">Felix Blanco</h1>
-          <h5 class="text-center">Fullstack Develloper</h5>
-        </div>
-      </div>
-      <div class="row justify-content-center mt-3">
-        <div class="col-md-8">
-          <p class="text-justify fz-20px">
-            ¡Hola!, Soy Felix Blanco, nací hace 27 años en Monagas Venezuela, estudie y culmine una carrera de Licenciatura en Informática en el período 2017, desde entonces trabajo de forma remota como <a href="https://blancofelix.com/fullstack-develloper/">Fullstack Develloper</a> para empresas de diferentes países de Latinoamérica logrando con ello mas de 4 años escribiendo código.
-          </p>
-          <ul class="nav justify-content-center mt-4">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4">      
+      <img src="<?php echo get_stylesheet_directory_uri().'/img/fb-400x400.jpg'; ?>" class="img-fluid d-block mx-auto rounded-circle my-5">
+    </div>
+    <div class="col-md-8">
+      <div class="text-center cont-title">          
+        <h1>Felix Blanco</h1>        
+        <small>FULL-STACK DEVELOPER</small>
+        <ul class="nav justify-content-center mt-4">
             <li class="nav-link">
               <a href="https://www.github.com/FelixBlanco" target="_blank">
                 <img src="<?php echo get_stylesheet_directory_uri().'/img/social/github.png'; ?>" class="img-fluid mx-auto d-block" width="55">
@@ -46,164 +40,75 @@
                 <img src="<?php echo get_stylesheet_directory_uri().'/img/social/youtube.png'; ?>" class="img-fluid mx-auto d-block" width="55">
               </a>
             </li>                                        
-          </ul>
-        </div>
+          </ul>        
       </div>
     </div>
   </div>
+</div>
 
-  <!-- Post -->
+<!-- Post -->
 
-  <?php  query_posts( 'posts_per_page=3' ); // Que solo muestre 3 Post  ?>	
+<?php  query_posts( 'posts_per_page=3' ); // Que solo muestre 3 Post  ?>	
 
-  <div class="container-fluid mt-10">
-    <a name="post" id="post"></a>
-    <div class="row">
+<div class="container mt-4">    
+  <div class="row">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>		
-      <div class="col-md-4 mt-2">
-        <div class="shadow bg-white rounded cont-post">
-          <a  href="<?php the_permalink(); ?>" class="link-style">            
-            <?php the_post_thumbnail('post-thumbnails',['class'=>'rounded img-fluid mx-auto d-block'])  ?>
-            <div class="p-2">
-              <h2 class="p-1 text-center"><?php the_title(); ?></h2>
-              <p class="p-1 text-center"> 
-                <span class="lnr lnr-calendar-full"></span> <?php the_time( 'd-m-Y' ) ?>, 
-                Escrito po Felix Blanco                
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <?php endwhile; else : ?>
-				<p><?php esc_html_e( 'Disculpa, No hay post disponibles.' ); ?></p>
-			<?php endif; ?>		
-    </div>
-  </div>
-
-
-  <!-- Proyectos personales -->
-  <div class="container mt-10">
-    <a name="proyectos" id="proyectos"></a>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="rounded p-2 mt-5">
-          <h3 class="text-center ff-merienda fz-3em">Proyectos Personales</h3>
-          <hr class="line-azul">
-          <p class="text-justify p-2 mt-1">
-            Me considero una persona autodidacta por ello me apasiona emprender diferentes proyectos,
-            te invito a visitarlos y comentar qué te parecen Cotoperices, Personal Nómina, es muy importante 
-            para mi tu opinión. 
-          </p>
-        </div>
-      </div>
-      <div class="col-md-5 offset-md-1">
-        <div class="row mt-5">
-          <div class="col-md-6 mt-1">
-            <a href="https://blancofelix.com/cotoperices">
-              <img src="<?php echo get_stylesheet_directory_uri().'/img/personal/cosecha.png' ?>" class="rounded img-fluid mx-auto d-block">
-            </a>
+    <div class="col-md-4 mt-2">
+      <div class="shadow bg-white rounded pb-4 no-link">
+        <a  href="<?php the_permalink(); ?>" >            
+          <?php the_post_thumbnail('post-thumbnails',['class'=>'rounded img-fluid mx-auto d-block'])  ?>
+          <h4 class="p-1 text-center"><?php the_title(); ?></h4>
+          <div class="text-center">            
+            <small>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-week" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
+                <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z"/>
+                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+              </svg> <?php the_time( 'd-m-Y' ) ?></small>
           </div>
-          <div class="col-md-6 mt-1">
-            <a href="https://blancofelix.com/personal-nomina">
-              <img src="<?php echo get_stylesheet_directory_uri().'/img/personal/nomina-personal.png' ?>" class="rounded img-fluid mx-auto d-block">
-            </a>
-          </div>
-        </div>      
+        </a>
       </div>
+    </div>        
+    <?php endwhile; else : ?>
+      <p><?php esc_html_e( 'Disculpa, No hay post disponibles.' ); ?></p>
+    <?php endif; ?>		
+  </div>
+  <div class="row">
+    <div class="col-md-12">          
+      <a href="https://blancofelix.com/post">
+        <p class="text-right p-2">Ver mas <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-bar-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M6 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H6.5A.5.5 0 0 1 6 8zm-2.5 6a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 1 0v11a.5.5 0 0 1-.5.5z"/>
+        </svg></p>
+      </a>          
+    </div>
+  </div>    
+</div>
+
+
+
+<!-- Proyectos -->
+<div class="container-fluid bg-white py-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-3 offset-1">
+      <h2>Proyectos Personales</h2>
+      <p class="text-justify">Me considero una persona emprendedora, por ello me motivo a desarrollar y poner a prueba mis habilidades y conocimientos.</p>
+    </div>
+    <div class="col-md-4">
+      <ul class="nav mt-2">
+        <?php foreach($proyectos_personales as $proyectos_personal){ ?>          
+          <li class="nav-item ml-5">
+            <a href="<?php echo $proyectos_personal['url'] ?>">
+              <img 
+                src="<?php echo get_stylesheet_directory_uri().''.$proyectos_personal['img']; ?>" 
+                width="100" 
+                class="img-fluid d-block mx-auto">              
+            </a>
+          </li>                   
+        <?php } ?>
+      </ul>
     </div>
   </div>
-
-
-  <!-- Experiencia -->
-  <div class="container-fluid mt-10">
-    <a name="experiencias" id="experiencias"></a>
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="ff-merienda fz-3em">Experiencia con empresas</h3>
-        <hr class="line-azul">
-        <div class="mt-4">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner mb-5">
-              <div class="carousel-item active">
-                <ul class="nav justify-content-center">
-                  <?php 
-                    foreach($experiencia_slide_uno as $s_u){
-                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_u['url']."' class='d-block w-100' width='200'></li>";
-                    }
-                  ?>
-                </ul>
-              </div>
-              <div class="carousel-item">
-                <ul class="nav justify-content-center">
-                  <?php 
-                    foreach($experiencia_slide_dos as $s_d){
-                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_d['url']."' class='d-block w-100' width='200'></li>";
-                    }
-                  ?>
-                </ul>
-              </div>
-              <div class="carousel-item">
-                <ul class="nav justify-content-center">
-                  <?php 
-                    foreach($experiencia_slide_tres as $s_t){
-                      echo "<li class='nav-item ml-2 mt-1'><img src='".get_stylesheet_directory_uri().''.$s_t['url']."' class='d-block w-100' width='200'></li>";
-                    }
-                  ?>
-                </ul>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="background-color: deepskyblue; width: 60px;">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only" style="color: black;">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="background-color: deepskyblue; width: 60px;">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>        
-        </div>
-      </div>
-    </div>
-  </div> 
-
-
-
-  <div class="container mt-5">
-    <a name="certificados" id="certificados"></a>
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="ff-merienda fz-2em">Skills</h3>
-        <hr class="line-azul">   
-        <div class="p-4">
-          <ul class="nav">
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Laravel</span> </h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Apis Rest</span> </h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Ionic 4</span></h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Angular 7</span> </h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Boostrap</span> </h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Bash</span> </h5></li>
-            <li class="nav-item ml-1"><h5><span class="badge badge-primary">Trello</span> </h5></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h3 class="ff-merienda fz-2em">Certificaciones y Cursos</h3>
-        <hr class="line-azul">          
-        <ul>
-          <?php 
-            foreach($certificaciones as $certificacion){ 
-              echo "<li class='mt-2'><a href='".$certificacion['url']."' target='_blank'>".$certificacion['title']."</a></li>";  
-            }
-          ?>        
-        </ul>
-      </div>
-    </div>
-
-  </div>
+</div>
 
 <?php get_footer(); ?>

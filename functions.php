@@ -1,7 +1,7 @@
 <?php 
 
-$edad = 1;
-for ($i=1994; $i < date('Y') ; $i++) { 
+$edad = 0;
+for ($i=1994; $i <= date('Y') ; $i++) { 
 	$edad = $edad + 1;
 }
 
@@ -17,25 +17,7 @@ if ( function_exists( 'add_theme_support' ) ){
 }
 
 
-$experiencia_slide_uno = [
-	[ 'name' => 'ruca', 'url' => '/img/experiencia/ruca.png' ],
-	[ 'name' => 'panza', 'url' => '/img/experiencia/panza.png' ],
-	[ 'name' => 'caserito', 'url' => '/img/experiencia/palcaserito.png' ],
-	[ 'name' => 'ruleta', 'url' => '/img/experiencia/ruleta.png' ]
-];
 
-$experiencia_slide_dos = [
-	[ 'name' => 'elev', 'url' => '/img/experiencia/elev.png' ],
-	[ 'name' => 'deposito-central', 'url' => '/img/experiencia/deposito-central.png' ],
-	[ 'name' => 'farmagroup', 'url' => '/img/experiencia/farmagroup.png' ],
-	[ 'name' => 'jimenez-puertas', 'url' => '/img/experiencia/jimenez-puertas.png' ],
-];
-
-$experiencia_slide_tres = [
-	[ 'name' => 'teraima', 'url' => '/img/experiencia/teraima.png' ],
-	[ 'name' => 'pdvsa', 'url' => '/img/experiencia/pdvsa.png' ],
-	[ 'name' => 'EMJGNR', 'url' => '/img/experiencia/EMJGNR.png' ],
-];
 
 $certificaciones = [
 	[
@@ -66,4 +48,33 @@ $certificaciones = [
 		'title' => 'Curso de Administración de Actividades con Trello',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/trello/diploma/'
 	],
+];
+
+$proyectos_personales = [
+	[
+		'title' => 'cotoperices',
+		'img' => '/img/portafolio/cosecha.png',
+		'url' => 'https://blancofelix.com/cotoperices/'
+	]
+];
+
+$proyectos_empresas = [
+	[
+		'empresa' => 'x',
+		'img' => '/img/portafolio/cosecha.png',
+		'url' => 'https://blancofelix.com/',
+		'periodo' => '2020 2020',
+		'pais' => 'venezuela',
+		'descripcion' => 'lorem xxxx',
+		'tags' => ['laravel','otro']
+	],
+	[
+		'empresa' => 'y',
+		'img' => '/img/portafolio/cosecha.png',
+		'url' => 'https://blancofelix.com/',
+		'periodo' => '2020 2020',
+		'pais' => 'venezuela',
+		'descripcion' => 'lorem xxxx',
+		'tags' => ['laravel','otro']
+	],	
 ];
