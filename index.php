@@ -111,4 +111,22 @@
   </div>
 </div>
 
+<div class="container">
+  <!-- Plugin Youtube  -->
+  <div class="row justify-content-end">
+    <div class="col-md-4">
+      <script src="https://apis.google.com/js/platform.js"></script>
+      <div class="g-ytsubscribe" data-channelid="UClYqs-rYH764AcU2G3ueoyw" data-layout="full" data-count="default"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/frao4aBmWW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>        
+    </div>
+  </div>
+</div>
+
+
 <?php get_footer(); ?>
