@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-4">      
-      <img src="<?php echo get_stylesheet_directory_uri().'/img/fb-400x400.jpg'; ?>" class="img-fluid d-block mx-auto rounded-circle my-5">
+      <img src="<?php echo get_stylesheet_directory_uri().'/img/fb-400x400.jpg'; ?>" class="img-fluid d-block mx-auto rounded-circle my-sm-5">
     </div>
     <div class="col-md-8">
       <div class="text-center cont-title">          
