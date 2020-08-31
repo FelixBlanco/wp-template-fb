@@ -74,7 +74,7 @@ $proyectos_personales = [
 	[
 		'empresa' => 'Bodega',
 		'img' => '/img/portafolio/bodega.png',
-		'url' => 'https://blancofelix.com/bodega',
+		'url' => 'https://bodega.blancofelix.com/',
 		'periodo' => 'Ene 2020 Ag 2020',
 		'pais' => 'Venezuela',
 		'descripcion' => 'Bodega es una plataforma web orientada a la gestión y administración de inventarios de pequeños y medianos negocios, enfocado a gestionar el inventario y a realizar ventas usando el precio del Dolar del dia, del cual puedes cambiar periódicamente.',

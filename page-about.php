@@ -16,7 +16,7 @@
         <div class="col-md-12">
           <div class="p-4">
             <h2>Resumen</h2>
-            <p class="text-justify" style="font-size : 1.6em">Nací hace 26 años, en Maturin estado Monagas - Venezuela, Estudie y culmine una carrera de <b>Licenciatura en Informática</b> en la Universidad Bolivariana de Venezuela, desde entonces 
+            <p class="text-justify" style="font-size : 1.6em">Nací hace <?php echo $edad; ?> años, en Maturin estado Monagas - Venezuela, Estudie y culmine una carrera de <b>Licenciatura en Informática</b> en la Universidad Bolivariana de Venezuela, desde entonces 
               Me dedico completamente a trabajar remotamente con clientes de toda Latinoamérica como <b>Freelancer <a href="https://blancofelix.com/fullstack-develloper/" target="_blanck"> Full-Stack Developer </a>.</b></p>
           </div>
         </div>

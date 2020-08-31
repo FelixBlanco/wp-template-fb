@@ -98,7 +98,7 @@
       <ul class="nav mt-2">
         <?php foreach($proyectos_personales as $proyectos_personal){ ?>          
           <li class="nav-item ml-5">
-            <a href="<?php echo $proyectos_personal['url'] ?>">
+            <a href="<?php echo $proyectos_personal['url'] ?>" class="nav-link">
               <img 
                 src="<?php echo get_stylesheet_directory_uri().''.$proyectos_personal['img']; ?>" 
                 width="100" 
