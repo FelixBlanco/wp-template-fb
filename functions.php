@@ -65,7 +65,32 @@ $certificaciones = [
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/ionic-avanzado/diploma/',
 		'img'		=> '/img/certificados/ionic4.png'
 	],		
-
+	// sep 2020
+	[
+		'title' => 'Curso de Angular',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/angular/diploma/',
+		'img'		=> '/img/certificados/angular.png'
+	],	
+	[
+		'title' => 'Curso Profesional de Angular',
+		'url'		=> ' https://platzi.com/@felix__blanco/curso/angular-profesional/diploma/',
+		'img'		=> '/img/certificados/ProfesionaldeAngular.png'
+	],	
+	[
+		'title' => 'Curso de Progressive Web Apps con Angular',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/pwa-angular/diploma/',
+		'img'		=> '/img/certificados/pwa.png'
+	],		
+	[
+		'title' => 'Curso de Debugging con Chrome DevTools',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/devtools/diploma/ ',
+		'img'		=> '/img/certificados/DevTools.png'
+	],		
+	[
+		'title' => 'Curso de Fundamentos de Ecommerce',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/fundamentos-ecommerce/diploma/',
+		'img'		=> '/img/certificados/FundamentosEcommerce.png'
+	],			
 
 	
 ];
@@ -88,7 +113,16 @@ $proyectos_personales = [
 		'pais' => 'Venezuela',
 		'descripcion' => 'Cotoperices es una aplicación web usando Laravel 5.8, Angular CLI 9 y Bootstrap 4, está orientada a gestionar y llevar el control de los empleados,  integrando una nominas de pagos, que nos permitirá contar con un historial de cada uno de los empleados registrados dentro de la misma.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
-	],	
+	],
+	[
+		'empresa' => 'Libro Gallero',
+		'img' => '/img/portafolio/librogallero.png',
+		'url' => 'https://librogallero.com/',
+		'periodo' => '2020 - Actualidad',
+		'pais' => 'Venezuela',
+		'descripcion' => 'Comunidad de Galleros para galleros.',
+		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
+	],		
 ];
 
 $proyectos_empresas = [	
@@ -143,7 +177,7 @@ $proyectos_empresas = [
 		'url' => 'https://blancofelix.com/elev',
 		'periodo' => 'Ago 2018 Jul 2019',
 		'pais' => 'Chile',
-		'descripcion' => 'Desarrolle una plataforma web utilizando Angular integrando Dynamic From, Angular Material en el área del Frontend y enlaces de Apis con Laravel 5.4 y Mysql como bases de datos. Mi desarrollo se ubicó en áreas de Recursos Humanos, dado que el sistema cubría varias áreas, conjuntamente con un equipo de trabajo usábamos Angular Dynamic From ayudando a el ahorro de trabajo al hacer los CRUD y diferentes tareas básicas.',
+		'descripcion' => 'Desarrolle una plataforma web utilizando Angular integrando Dynamic Form, Angular Material en el área del Frontend y enlaces de Apis con Laravel 5.4 y Mysql como bases de datos. Mi desarrollo se ubicó en áreas de Recursos Humanos, dado que el sistema cubría varias áreas, conjuntamente con un equipo de trabajo usábamos Angular Dynamic From ayudando a el ahorro de trabajo al hacer los CRUD y diferentes tareas básicas.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql','Angular Material','Slack']
 	],		
 	[
@@ -195,7 +229,7 @@ $proyectos_empresas = [
 		'empresa' => 'Jose Gabriel Nuñez Romberg',
 		'img' => '/img/experiencia/EMJGNR.png',
 		'url' => 'https://blancofelix.com/EMJGNR',
-		'periodo' => '',
+		'periodo' => 'Sep 2015 - 2017',
 		'pais' => 'Venezuela',
 		'descripcion' => 'Jose Gabriel Nuñez Romberg, institución orientada a dar educación a los niños, adolescentes y adultos sobre música y convertirlos en grandes artistas musicales. Dicha institución contaba con diferentes problemas entre uno de ellos era al momento de las inscripción y la solicitud de información a el personal, los interesados en estudiar no tenían la información precisa y por otra parte al momento de hacer las inscripción la cantidad de personas que deseaban aspirar un cupo en la institución era mayor de 200 personas, logrando con eso un colapso entre duas e información. Nos juntamos un grupo de estudiantes ( Geraldo Gonzales, Fernando Rosillo ) aspirantes a obtener un título de TSU en Informática, a dar una solución, la cual fue desarrollar una aplicación web que permitirá a las personas entrar desde un dominio público consultar información y de igual forma hacer una preinscripción o inscripción, de igual forma la aplicación se ocupa de asignar por edades y niveles a los estudiantes con sus profesores',
 		'tags' => ['Jquery','Bootstrap','HTML\Css','PHP','Mysql']
