@@ -90,9 +90,38 @@ $certificaciones = [
 		'title' => 'Curso de Fundamentos de Ecommerce',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/fundamentos-ecommerce/diploma/',
 		'img'		=> '/img/certificados/FundamentosEcommerce.png'
-	],			
-
-	
+	],	
+	//  Octubre 2020
+	[
+		'title' => 'Curso de Fundamentos de TypeScript',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1869-typescript/diploma/detalle/',
+		'img'		=> '/img/certificados/FundamentosdeTypeScript.png'
+	],				
+	[
+		'title' => 'Curso de Fundamentos de PHP',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/introduccion-php-2020/diploma/',
+		'img'		=> '/img/certificados/FundamentsdePHP.png'
+	],	
+	[
+		'title' => 'Curso de Rendimiento en Angular',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/angular-performance/diploma/',
+		'img'		=> '/img/certificados/RendimientoenAngular.png'
+	],	
+	[
+		'title' => 'Curso de Manejo de Datos en PHP',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/datos-php-2020/diploma/',
+		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png'
+	],							
+	[
+		'title' => 'Curso de Manejo de Datos en PHP',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/datos-php-2020/diploma/',
+		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png'
+	],												
+	[
+		'title' => 'Curso de Closures y Scope en JavaScript',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/scope/diploma/',
+		'img'		=> '/img/certificados/CursodeClosuresyScopeenJavaScript.png'
+	],									
 ];
 
 $proyectos_personales = [
@@ -122,7 +151,16 @@ $proyectos_personales = [
 		'pais' => 'Venezuela',
 		'descripcion' => 'Comunidad de Galleros para galleros.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
-	],		
+	],	
+	[
+		'empresa' => 'Bodega',
+		'img' => '/img/portafolio/bodega.png',
+		'url' => 'https://bodega.blancofelix.com/',
+		'periodo' => '2020 - Actualidad',
+		'pais' => 'Venezuela',
+		'descripcion' => 'plataforma online orientada a brindarte una solución ágil y fácil para que puedas gestionar todos los procesos de tu pequeño o gran negocio, consiguiendo que llevar el control de tus productos y las ventas, usando nuestro sistema de multimoneda.',
+		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
+	],			
 ];
 
 $proyectos_empresas = [	
