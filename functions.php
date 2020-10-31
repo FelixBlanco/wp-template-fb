@@ -129,7 +129,7 @@ $proyectos_personales = [
 		'empresa' => 'Bodega',
 		'img' => '/img/portafolio/bodega.png',
 		'url' => 'https://bodega.blancofelix.com/',
-		'periodo' => 'Ene 2020 Ag 2020',
+		'periodo' => 'Ene 2020 - Actualida',
 		'pais' => 'Venezuela',
 		'descripcion' => 'Bodega es una plataforma web orientada a la gestión y administración de inventarios de pequeños y medianos negocios, enfocado a gestionar el inventario y a realizar ventas usando el precio del Dolar del dia, del cual puedes cambiar periódicamente.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
@@ -151,16 +151,7 @@ $proyectos_personales = [
 		'pais' => 'Venezuela',
 		'descripcion' => 'Comunidad de Galleros para galleros.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
-	],	
-	[
-		'empresa' => 'Bodega',
-		'img' => '/img/portafolio/bodega.png',
-		'url' => 'https://bodega.blancofelix.com/',
-		'periodo' => '2020 - Actualidad',
-		'pais' => 'Venezuela',
-		'descripcion' => 'plataforma online orientada a brindarte una solución ágil y fácil para que puedas gestionar todos los procesos de tu pequeño o gran negocio, consiguiendo que llevar el control de tus productos y las ventas, usando nuestro sistema de multimoneda.',
-		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
-	],			
+	]		
 ];
 
 $proyectos_empresas = [	
