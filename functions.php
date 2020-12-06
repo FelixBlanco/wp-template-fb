@@ -121,7 +121,52 @@ $certificaciones = [
 		'title' => 'Curso de Closures y Scope en JavaScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/scope/diploma/',
 		'img'		=> '/img/certificados/CursodeClosuresyScopeenJavaScript.png'
-	],									
+	],			
+	
+	// Nov 2020
+	[
+		'title' => 'Curso de Inglés Básico: Fundamentos',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1358-ingles-basico/diploma/detalle/		',
+		'img'		=> '/img/certificados/en-basic-fundamentals.png'
+	],
+	[
+		'title' => 'Curso de Estrategias para Aprender Inglés Online',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1944-estrategias-ingles/diploma/detalle/',
+		'img'		=> '/img/certificados/en-strategies-to-learn.png'
+	],	
+	[
+		'title' => 'Curso de Ventas con WhatsApp',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/2054-ventas-whatsapp/diploma/detalle/',
+		'img'		=> '/img/certificados/ventas-whatsapp.png'
+	],	
+	[
+		'title' => 'Curso de Inglés para Principiantes',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1945-ingles-principiantes/diploma/detalle/',
+		'img'		=> '/img/certificados/en-beginners.png'
+	],			
+	[
+		'title' => 'Curso de JavaScript Engine (V8) y el Navegador',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1798-javascript-navegador/diploma/detalle/',
+		'img'		=> '/img/certificados/js-engine.png'
+	],				
+	[
+		'title' => 'Curso Básico de JavaScript',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1814-basico-javascript/diploma/detalle/',
+		'img'		=> '/img/certificados/basico-js.png'
+	],		
+	[
+		'title' => 'Fundamentos de JavaScript',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1339-course/diploma/detalle/',
+		'img'		=> '/img/certificados/fund-js.png'
+	],				
+	[
+		'title' => 'Curso Profesional de Git y GitHub',
+		'url'		=> 'https://platzi.com/@felix__blanco/curso/1557-git-github/diploma/detalle/',
+		'img'		=> '/img/certificados/git.png'
+	],							
+	
+
+
 ];
 
 $proyectos_personales = [
