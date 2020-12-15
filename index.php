@@ -399,7 +399,7 @@
 
   <div class="row">
     <div class="col-md-12 text-right p-2 mt-2">
-      <a href="#">Otras experiencias</a>
+      <a href="https://blancofelix.com/experiencias/">Otras experiencias</a>
     </div>
   </div>
 </div>
