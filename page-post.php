@@ -20,7 +20,7 @@
           <a href="<?php the_permalink(); ?>" class="link-style">
             <?php the_post_thumbnail('post-thumbnails',['class'=>'rounded img-fluid mx-auto d-block'])  ?>	            
             <div class="p-2">
-              <h3 class="p-1 text-center"><?php the_title() ?></h3>
+              <h4 class="p-1 text-center"><?php the_title() ?></h4>
               <p class="p-1 text-center fz-11px"> 
               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-week" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>

@@ -23,178 +23,256 @@ $certificaciones = [
 	[
 		'title' => 'Curso de Introducción a Laravel',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/intro-laravel/diploma/',
-		'img'		=> '/img/certificados/intro-laravel.png'
+		'img'		=> '/img/certificados/intro-laravel.png',
+		'tech'	=> ['PHP','LARAVEL'],
+		'perfil'=> 'BACKEND'
 	],
 	[
 		'title' => 'Curso de API REST',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/api-rest/diploma/',
-		'img'		=> '/img/certificados/api-rest.png'
+		'img'		=> '/img/certificados/api-rest.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'
 	],
 	[
 		'title' => 'Curso de Gestión de Dependencias y Paquetes con NPM',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/npm/diploma/',
-		'img'		=> '/img/certificados/npm.png'
+		'img'		=> '/img/certificados/npm.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'
 	],
 	[
 		'title' => 'Curso de Manejo de Datos en Laravel con Eloquent ORM',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/eloquent-laravel/diploma/',
-		'img'		=> '/img/certificados/orm.png'
+		'img'		=> '/img/certificados/orm.png',
+		'tech'	=> ['PHP','LARAVEL'],
+		'perfil'=> 'BACKEND'
 	],
 	[
 		'title' => 'Curso de ECMAScript 6+',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/ecmascript-6/diploma/',
-		'img'		=> '/img/certificados/ECMAScript6.png'
+		'img'		=> '/img/certificados/ECMAScript6.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'
 	],				
 	[
 		'title' => 'Curso de PHP con Laravel',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/curso-php-laravel/diploma/',
-		'img'		=> '/img/certificados/php-laravel.png'
+		'img'		=> '/img/certificados/php-laravel.png',
+		'tech'	=> ['PHP','LARAVEL'],
+		'perfil'=> 'BACKEND'		
 	],
 	[
 		'title' => 'Curso de Administración de Actividades con Trello',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/trello/diploma/',
-		'img'		=> '/img/certificados/trello.png'		
+		'img'		=> '/img/certificados/trello.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'		
 	],	
 	[
 		'title' => 'Curso de Asincronismo con JavaScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/asincronismo-js/diploma/',
-		'img'		=> '/img/certificados/AsincronismoconJavaScript.png'
+		'img'		=> '/img/certificados/AsincronismoconJavaScript.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'		
 	],
 	[
 		'title' => 'Curso de Ionic 4',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/ionic-avanzado/diploma/',
-		'img'		=> '/img/certificados/ionic4.png'
+		'img'		=> '/img/certificados/ionic4.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'MOVIL'		
 	],		
 	// sep 2020
 	[
 		'title' => 'Curso de Angular',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/angular/diploma/',
-		'img'		=> '/img/certificados/angular.png'
+		'img'		=> '/img/certificados/angular.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'				
 	],	
 	[
 		'title' => 'Curso Profesional de Angular',
 		'url'		=> ' https://platzi.com/@felix__blanco/curso/angular-profesional/diploma/',
-		'img'		=> '/img/certificados/ProfesionaldeAngular.png'
+		'img'		=> '/img/certificados/ProfesionaldeAngular.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'		
 	],	
 	[
 		'title' => 'Curso de Progressive Web Apps con Angular',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/pwa-angular/diploma/',
-		'img'		=> '/img/certificados/pwa.png'
+		'img'		=> '/img/certificados/pwa.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'		
 	],		
 	[
 		'title' => 'Curso de Debugging con Chrome DevTools',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/devtools/diploma/ ',
-		'img'		=> '/img/certificados/DevTools.png'
+		'img'		=> '/img/certificados/DevTools.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'			
 	],		
 	[
 		'title' => 'Curso de Fundamentos de Ecommerce',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/fundamentos-ecommerce/diploma/',
-		'img'		=> '/img/certificados/FundamentosEcommerce.png'
+		'img'		=> '/img/certificados/FundamentosEcommerce.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'			
 	],	
 	//  Octubre 2020
 	[
 		'title' => 'Curso de Fundamentos de TypeScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1869-typescript/diploma/detalle/',
-		'img'		=> '/img/certificados/FundamentosdeTypeScript.png'
+		'img'		=> '/img/certificados/FundamentosdeTypeScript.png',
+		'tech'	=> ['JS','TYPESCRIPT'],
+		'perfil'=> 'FRONTEND'			
 	],				
 	[
 		'title' => 'Curso de Fundamentos de PHP',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/introduccion-php-2020/diploma/',
-		'img'		=> '/img/certificados/FundamentsdePHP.png'
+		'img'		=> '/img/certificados/FundamentsdePHP.png',
+		'tech'	=> ['PHP'],
+		'perfil'=> 'BACKEND'					
 	],	
 	[
 		'title' => 'Curso de Rendimiento en Angular',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/angular-performance/diploma/',
-		'img'		=> '/img/certificados/RendimientoenAngular.png'
+		'img'		=> '/img/certificados/RendimientoenAngular.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'					
 	],	
 	[
 		'title' => 'Curso de Manejo de Datos en PHP',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/datos-php-2020/diploma/',
-		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png'
-	],							
-	[
-		'title' => 'Curso de Manejo de Datos en PHP',
-		'url'		=> 'https://platzi.com/@felix__blanco/curso/datos-php-2020/diploma/',
-		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png'
-	],												
+		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png',
+		'tech'	=> ['PHP'],
+		'perfil'=> 'BACKEND'					
+	],																		
 	[
 		'title' => 'Curso de Closures y Scope en JavaScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/scope/diploma/',
-		'img'		=> '/img/certificados/CursodeClosuresyScopeenJavaScript.png'
+		'img'		=> '/img/certificados/CursodeClosuresyScopeenJavaScript.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'			
 	],			
 	
 	// Nov 2020
 	[
 		'title' => 'Curso de Inglés Básico: Fundamentos',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1358-ingles-basico/diploma/detalle/		',
-		'img'		=> '/img/certificados/en-basic-fundamentals.png'
+		'img'		=> '/img/certificados/en-basic-fundamentals.png',
+		'tech'	=> ['EN'],
+		'perfil'=> 'COMPLEMENTO'			
 	],
 	[
 		'title' => 'Curso de Estrategias para Aprender Inglés Online',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1944-estrategias-ingles/diploma/detalle/',
-		'img'		=> '/img/certificados/en-strategies-to-learn.png'
+		'img'		=> '/img/certificados/en-strategies-to-learn.png',
+		'tech'	=> ['EN'],
+		'perfil'=> 'COMPLEMENTO'			
 	],	
 	[
 		'title' => 'Curso de Ventas con WhatsApp',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/2054-ventas-whatsapp/diploma/detalle/',
-		'img'		=> '/img/certificados/ventas-whatsapp.png'
+		'img'		=> '/img/certificados/ventas-whatsapp.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'			
 	],	
 	[
 		'title' => 'Curso de Inglés para Principiantes',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1945-ingles-principiantes/diploma/detalle/',
-		'img'		=> '/img/certificados/en-beginners.png'
+		'img'		=> '/img/certificados/en-beginners.png',
+		'tech'	=> ['EN'],
+		'perfil'=> 'COMPLEMENTO'			
 	],			
 	[
 		'title' => 'Curso de JavaScript Engine (V8) y el Navegador',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1798-javascript-navegador/diploma/detalle/',
-		'img'		=> '/img/certificados/js-engine.png'
+		'img'		=> '/img/certificados/js-engine.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'			
 	],				
 	[
 		'title' => 'Curso Básico de JavaScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1814-basico-javascript/diploma/detalle/',
-		'img'		=> '/img/certificados/basico-js.png'
+		'img'		=> '/img/certificados/basico-js.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'				
 	],		
 	[
 		'title' => 'Fundamentos de JavaScript',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1339-course/diploma/detalle/',
-		'img'		=> '/img/certificados/fund-js.png'
+		'img'		=> '/img/certificados/fund-js.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'				
 	],				
 	[
 		'title' => 'Curso Profesional de Git y GitHub',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1557-git-github/diploma/detalle/',
-		'img'		=> '/img/certificados/git.png'
+		'img'		=> '/img/certificados/git.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
 	],							
-	
-
-
 ];
+
+$backends = [];
+$backends_landing = [];
+
+$frontends = [];
+$frontends_landing = [];
+
+$complementos = [];
+$complementos_landing = [];
+
+foreach($certificaciones  as $certificacion){
+
+	if($certificacion['perfil'] == 'BACKEND'){
+		array_push($backends,$certificacion);
+	}
+	
+	if($certificacion['perfil'] == 'FRONTEND'){		
+		array_push($frontends,$certificacion);
+	}
+	
+	if($certificacion['perfil'] == 'COMPLEMENTO'){		
+		array_push($complementos,$certificacion);	
+	}
+
+}
+
+array_push($backends_landing,array_chunk($backends,4));
+array_push($frontends_landing,array_chunk($frontends,4));
+array_push($complementos_landing,array_chunk($complementos,4));
 
 $proyectos_personales = [
 	[
 		'empresa' => 'Bodega',
 		'img' => '/img/portafolio/bodega.png',
-		'url' => 'https://bodega.blancofelix.com/',
+		'width_img' => '200',
+		'url' => 'https://bodegave.com/',
 		'periodo' => 'Ene 2020 - Actualida',
 		'pais' => 'Venezuela',
-		'descripcion' => 'Bodega es una plataforma web orientada a la gestión y administración de inventarios de pequeños y medianos negocios, enfocado a gestionar el inventario y a realizar ventas usando el precio del Dolar del dia, del cual puedes cambiar periódicamente.',
+		'descripcion' => 'Gestiona tu negocio desde tu teléfono, tablet o computador por medio de nuestro sistema online, usando multi-moneda y control de tu inventario.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
 	],	
 	[
 		'empresa' => 'Cotoperices',
 		'img' => '/img/portafolio/cosecha.png',
+		'width_img' => '150',
 		'url' => 'https://blancofelix.com/cotoperices',
 		'periodo' => 'En 2020 Mar 2020',
 		'pais' => 'Venezuela',
-		'descripcion' => 'Cotoperices es una aplicación web usando Laravel 5.8, Angular CLI 9 y Bootstrap 4, está orientada a gestionar y llevar el control de los empleados,  integrando una nominas de pagos, que nos permitirá contar con un historial de cada uno de los empleados registrados dentro de la misma.',
+		'descripcion' => 'Plataforma de gestion de personal, guardando el personal como los pagos, pagos pendientes y notificando cuando esten pagos.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
 	],
 	[
 		'empresa' => 'Libro Gallero',
 		'img' => '/img/portafolio/librogallero.png',
+		'width_img' => '155',
 		'url' => 'https://librogallero.com/',
 		'periodo' => '2020 - Actualidad',
 		'pais' => 'Venezuela',
-		'descripcion' => 'Comunidad de Galleros para galleros.',
+		'descripcion' => 'Plataforma online, orientada a la cria y mantenimiento de ejemplares y gallos de peleas.',
 		'tags' => ['Angular','Bootstrap','Laravel','Mysql']
 	]		
 ];
