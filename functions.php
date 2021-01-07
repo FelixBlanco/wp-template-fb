@@ -212,7 +212,73 @@ $certificaciones = [
 		'img'		=> '/img/certificados/git.png',
 		'tech'	=> ['COMPLEMENTO'],
 		'perfil'=> 'COMPLEMENTO'				
-	],							
+	],		
+	
+	// Dic 2020
+
+	[
+		'title' => 'Curso de TypeScript con Angular por Belatrix',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1580-typescript-angular/diploma/detalle/',
+		'img'		=> '/img/certificados/Angular-Belatrix.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'				
+	],
+	[
+		'title' => 'Curso de Programación Orientada a Objetos: POO',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1474-oop/diploma/detalle/',
+		'img'		=> '/img/certificados/ProgramaciOnOrientadaObjetos.png',
+		'tech'	=> ['PHP','COMPLEMENTO'],
+		'perfil'=> 'BACKEND'				
+	],	
+	[
+		'title' => 'Curso de Principios de Inversión con Mesfix',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/2119-inversiones-mesfix/diploma/detalle/',
+		'img'		=> '/img/certificados/Inversión-Mesfix.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
+	],		
+	[
+		'title' => 'Curso de Introducción al Trading con Criptomonedas',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1681-trading-criptomonedas/diploma/detalle/',
+		'img'		=> '/img/certificados/TradingCriptomonedas.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
+	],	
+	[
+		'title' => 'Curso de Single Page Application con JavaScript Vanilla',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1787-spa-javascript/diploma/detalle/',
+		'img'		=> '/img/certificados/JavaScriptVanilla.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'				
+	],		
+	[
+		'title' => 'Curso de Postman',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1765-postman/diploma/detalle/',
+		'img'		=> '/img/certificados/Postman.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
+	],
+	[
+		'title' => 'Curso de Buenas Prácticas para Escritura de Código',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1630-mejor-codigo/diploma/detalle/',
+		'img'		=> '/img/certificados/BuenasPracticas.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
+	],
+	[
+		'title' => 'Curso de TensorFlow.js',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1963-tensorflow-js/diploma/detalle/',
+		'img'		=> '/img/certificados/TensorFlowJs.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'				
+	],	
+	[
+		'title' => 'Curso de Análisis de Negocios para Ciencia de Datos',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/2069-negocios-data-science/diploma/detalle/',
+		'img'		=> '/img/certificados/NegociosparaCienciadeDatos.png',
+		'tech'	=> ['COMPLEMENTO'],
+		'perfil'=> 'COMPLEMENTO'				
+	]
 ];
 
 $backends = [];
