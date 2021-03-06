@@ -1,51 +1,54 @@
-	<div class="container-fluid mt-5 bg-white l-b-blue">
-		<div class="row justify-content-center">
-			<div class="col-md-4">
-				<div class="p-2">
-					<h2 class="p-2 text-center">Contactame</h2>
-					<p class="text-justify">Si deseas contactarte conmigo lo puedes hacer por medio de mi redes sociales o escribirme a 
-						<b> <a href="mailto:yo@blancofelix.com">Yo@blancofelix.com </a> </b> y con gusto te atendere.</p>
+<?php wp_footer(  ); ?>
 
-						<ul class="nav justify-content-center mt-4">
-						<li class="nav-link">
-							<a href="https://www.github.com/FelixBlanco" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/github.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li>
-						<li class="nav-link">
-							<a href="https://www.instagram.com/felix__blanco/?hl=es-la" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/instagram.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li>
-						<li class="nav-link">
-							<a href="https://twitter.com/felix__blanco" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/twitter.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li>  
-						<li class="nav-link">
-							<a href="https://www.linkedin.com/in/felix-blanco-54488684/" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/linkedin.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li>
-						<li class="nav-link">
-							<a href="https://www.facebook.com/felixablancoe" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/facebook.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li> 
-						<li class="nav-link">
-							<a href="https://www.youtube.com/channel/UClYqs-rYH764AcU2G3ueoyw" target="_blank">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/social/youtube.png' ?>" class="img-fluid mx-auto d-block" width="55">
-							</a>
-						</li>                                        
-					</ul> 
-				</div>
-			</div>
-		</div>
-	</div>	
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<div class="container-fluid mt-5" id="footer">
+    <div class="row">
+      <div class="col-md-4">
+      <h4 class="text-center mt-4">
+        Yo@BlancoFelix.com
+      </h4>
+      </div>
+      <div class="col-md-4">
+        <h4 class="text-center mt-4">&copy Felix Blanco</h4>
+      </div>
+      <div class="col-md-4">
+        <div class="nav-social justify-content-center">
+          <ul class="nav">
+            <li class="nav-item">
+							<a href="https://www.facebook.com/felixablancoe" target="_blank" class="nav-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+							<a href="https://www.instagram.com/felix__blanco/?hl=es-la" target="_blank" class="nav-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>                
+            <li class="nav-item">
+							<a href="https://www.linkedin.com/in/felix-blanco-54488684/" target="_blank" class="nav-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>   
+            <li class="nav-item">
+							<a href="https://twitter.com/felix__blanco" target="_blank" class="nav-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li> 
+            <li class="nav-item">
+							<a href="https://www.github.com/FelixBlanco" target="_blank" class="nav-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>                                                                 
+          </ul>
+        </div>         
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
   <script>
 		// $(document).ready(function(){

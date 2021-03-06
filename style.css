@@ -10,66 +10,109 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Monda&family=Montserrat:wght@500&display=swap');
 
-*{ margin: 0; }
+/* body{
+  font-family: 'Monda', sans-serif;  
+} */
 
-/* 
-  font-family: 'Merienda One', cursive;
-  font-family: 'Monda', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-*/
-
-body{
-  font-family: 'Monda', sans-serif;
+body {  
+  font-family: 'Monda', sans-serif;  
 }
-
-.body-gray{ background-color: #f8f9fa;}
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Merienda One', cursive;
-}
-
-#img-landing{ border: 5px dashed #118be2; }
-
-.cont-title{      
-  padding: 20px;
-  margin-top: 13%;
-}
-
-.cont-title > h1 {
   color: #0c4064;
   font-family: 'Merienda One', cursive;
-  font-size: 4.5rem;
 }
 
-.cont-title > small{
+
+#landing-content{
+  margin-top: 7%;    
+}
+
+#navbarGeneral{
+  margin-left: 3%;
+}
+.active{
+  border-bottom: 1px solid #0c4064;
+}
+
+#titulo-navbar{
+  font-family: 'Merienda One', cursive;
+  color: #0c4064;
+  font-size: 27px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#titulo{
+  font-family: 'Merienda One', cursive;
+  color: #0c4064;
+  font-size: 90px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#sub-titulo{
   color: rgb(112, 112, 112);
-  font-size: 144%;
-}
-
-.l-b-blue { border-bottom: 8px solid #118be2; }
-.no-link a{ 
-  color: black;
-  text-decoration: none; 
-}
-
-.title {
-  color: #0c4e6d;
-  border-left: 4px solid #0c4e6d;
-}
-
-/* Show Articulos */
-.cont-parrafo{
-  font-size: 1.5em;
-}
-
-.navbar_menu a{
   font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#descripcion-landing{
+  font-size: 22px;
+}
+
+.nav-social a{
+  color: #0c4064;
+  font-size: 36px;
+}
+
+#footer{
+  border-bottom: 4px solid #0c4064;
+}
+
+#footer > .nav  a{
+  font-size: 30px;
+}
+
+.about{
+  font-size: 22px;
+  text-align: justify;
+}
+
+.a-none:hover{
+  background-color: #f2f2f2;
+  border-bottom : 1px solid #0c4064;
+}
+
+.a-none a{
+  text-decoration: none;  
+}
+
+.content-parrafo  p{
+  font-size: 1.5rem!important;
+}
+
+.menu-principal  ul{
+  display: flex !important;
+  margin-top: 2% !important;
+}
+.menu-principal  li{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.menu-principal  a{
+  color : rgba(0,0,0,7);
+  display: block;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 @media (max-width: 430px) {  
-  body{ background-color: red;}  
-  .cont-title{ margin-top: 0%; }
+  /* body{ background-color: red;}  
+  .cont-title{ margin-top: 0%; } */
 }

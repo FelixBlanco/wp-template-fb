@@ -1,8 +1,3 @@
-<?php 
-/*
-	Template Name: all-post
-*/
- ?>
 <?php get_header(); ?>
 
   <div style="padding-bottom: 2%; padding-top: 2%;">
@@ -19,7 +14,8 @@
       $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
       
       // the query
-      $the_query = new WP_Query( array(          
+      $the_query = new WP_Query( array(
+          'cat'   => 1,
           'paged' => $paged,
           'posts_per_page'=>4
       ));

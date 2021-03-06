@@ -1,5 +1,25 @@
 <?php 
 
+function init_template(){
+
+	add_theme_support('post-thumbnails'); // aceptar imagen destacada
+	add_theme_support( 'title-tag'); // poder colocar links en el inicio
+
+	// Agregando menu a nuestro proyecto. 
+
+
+}
+
+function menus(){
+	register_nav_menus(
+		array(
+				'top_menu' => 'Menú Principal'
+		)
+	);
+}
+
+	add_action( 'init', 'menus');
+
 $edad = 0;
 for ($i=1994; $i <= date('Y') ; $i++) { 
 	$edad = $edad + 1;
@@ -22,7 +42,7 @@ if ( function_exists( 'add_theme_support' ) ){
 $certificaciones = [
 	[
 		'title' => 'Curso de Introducción a Laravel',
-		'url'		=> 'https://platzi.com/@felix__blanco/curso/intro-laravel/diploma/',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1842-intro-laravel-2020/diploma/detalle/',
 		'img'		=> '/img/certificados/intro-laravel.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'
@@ -31,8 +51,8 @@ $certificaciones = [
 		'title' => 'Curso de API REST',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/api-rest/diploma/',
 		'img'		=> '/img/certificados/api-rest.png',
-		'tech'	=> ['COMPLEMENTO'],
-		'perfil'=> 'COMPLEMENTO'
+		'tech'	=> ['BACKEND'],
+		'perfil'=> 'BACKEND'
 	],
 	[
 		'title' => 'Curso de Gestión de Dependencias y Paquetes con NPM',
@@ -43,7 +63,7 @@ $certificaciones = [
 	],
 	[
 		'title' => 'Curso de Manejo de Datos en Laravel con Eloquent ORM',
-		'url'		=> 'https://platzi.com/@felix__blanco/curso/eloquent-laravel/diploma/',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1920-eloquent-laravel/diploma/detalle/',
 		'img'		=> '/img/certificados/orm.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'
@@ -81,7 +101,7 @@ $certificaciones = [
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/ionic-avanzado/diploma/',
 		'img'		=> '/img/certificados/ionic4.png',
 		'tech'	=> ['JS','ANGULAR'],
-		'perfil'=> 'MOVIL'		
+		'perfil'=> 'FRONTEND'		
 	],		
 	// sep 2020
 	[
@@ -116,8 +136,8 @@ $certificaciones = [
 		'title' => 'Curso de Fundamentos de Ecommerce',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/fundamentos-ecommerce/diploma/',
 		'img'		=> '/img/certificados/FundamentosEcommerce.png',
-		'tech'	=> ['COMPLEMENTO'],
-		'perfil'=> 'COMPLEMENTO'			
+		'tech'	=> ['WORDPRESS'],
+		'perfil'=> 'WORDPRESS'			
 	],	
 	//  Octubre 2020
 	[
@@ -143,7 +163,7 @@ $certificaciones = [
 	],	
 	[
 		'title' => 'Curso de Manejo de Datos en PHP',
-		'url'		=> 'https://platzi.com/@felix__blanco/curso/datos-php-2020/diploma/',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/2032-datos-php/diploma/detalle/',
 		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png',
 		'tech'	=> ['PHP'],
 		'perfil'=> 'BACKEND'					
@@ -162,28 +182,28 @@ $certificaciones = [
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1358-ingles-basico/diploma/detalle/		',
 		'img'		=> '/img/certificados/en-basic-fundamentals.png',
 		'tech'	=> ['EN'],
-		'perfil'=> 'COMPLEMENTO'			
+		'perfil'=> 'ENGLISH'			
 	],
 	[
 		'title' => 'Curso de Estrategias para Aprender Inglés Online',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1944-estrategias-ingles/diploma/detalle/',
 		'img'		=> '/img/certificados/en-strategies-to-learn.png',
 		'tech'	=> ['EN'],
-		'perfil'=> 'COMPLEMENTO'			
+		'perfil'=> 'ENGLISH'			
 	],	
 	[
 		'title' => 'Curso de Ventas con WhatsApp',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/2054-ventas-whatsapp/diploma/detalle/',
 		'img'		=> '/img/certificados/ventas-whatsapp.png',
-		'tech'	=> ['COMPLEMENTO'],
-		'perfil'=> 'COMPLEMENTO'			
+		'tech'	=> ['WORDPRESS'],
+		'perfil'=> 'WORDPRESS'			
 	],	
 	[
 		'title' => 'Curso de Inglés para Principiantes',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/1945-ingles-principiantes/diploma/detalle/',
 		'img'		=> '/img/certificados/en-beginners.png',
 		'tech'	=> ['EN'],
-		'perfil'=> 'COMPLEMENTO'			
+		'perfil'=> 'ENGLISH'			
 	],			
 	[
 		'title' => 'Curso de JavaScript Engine (V8) y el Navegador',
@@ -278,7 +298,87 @@ $certificaciones = [
 		'img'		=> '/img/certificados/NegociosparaCienciadeDatos.png',
 		'tech'	=> ['COMPLEMENTO'],
 		'perfil'=> 'COMPLEMENTO'				
-	]
+	],
+
+	// Ene 2021
+	[
+		'title' => 'Curso Práctico de React JS',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1651-react-ejs/diploma/detalle/',
+		'img'		=> '/img/certificados/reactjs.png',
+		'tech'	=> ['JS','REACT'],
+		'perfil'=> 'FRONTEND'				
+	],
+	[
+		'title' => 'Curso de React.js',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1548-react/diploma/detalle/',
+		'img'		=> '/img/certificados/reactjs-1.png',
+		'tech'	=> ['JS','REACT'],
+		'perfil'=> 'FRONTEND'				
+	],	
+	[
+		'title' => 'Curso de Angular Forms: Creación y Optimización de Formularios Web',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/2027-angular-forms/diploma/detalle/',
+		'img'		=> '/img/certificados/angular-form.png',
+		'tech'	=> ['JS','ANGULAR'],
+		'perfil'=> 'FRONTEND'				
+	],	
+	[
+		'title' => 'Curso de API REST con Laravel',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/2185-laravel-api/diploma/detalle/',
+		'img'		=> '/img/certificados/API-RESP-LARAVEL.png',
+		'tech'	=> ['PHP','LARAVEL'],
+		'perfil'=> 'BACKEND'				
+	],	
+	[
+		'title' => 'Curso Profesional de JavaScript',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1642-javascript-profesional/diploma/detalle/',
+		'img'		=> '/img/certificados/PROFESIONAL-JS.png',
+		'tech'	=> ['JS'],
+		'perfil'=> 'FRONTEND'				
+	],				
+	[
+		'title' => 'Curso Básico de Python',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1937-python/diploma/detalle/',
+		'img'		=> '/img/certificados/PYTHON-BASICO.png',
+		'tech'	=> ['PY'],
+		'perfil'=> 'BACKEND'				
+	],					
+	[
+		'title' => 'Curso de SQL y MySQL',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1272-sql-mysql/diploma/detalle/ ',
+		'img'		=> '/img/certificados/MYSQL.png',
+		'tech'	=> ['MYSQL'],
+		'perfil'=> 'COMPLEMENTO'				
+	],
+	// Feb 2021
+	[
+		'title' => 'Curso Práctico de WordPress',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1812-fundamentos-wordpress/diploma/detalle/',
+		'img'		=> '/img/certificados/PracticoWordPress.png',
+		'tech'	=> ['WORDPRESS'],
+		'perfil'=> 'WORDPRESS'				
+	],
+	[
+		'title' => 'Curso de Creación de Tiendas en Línea con WooCommerce',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1981-woocommerce/diploma/detalle/ ',
+		'img'		=> '/img/certificados/WooCommerce.png',
+		'tech'	=> ['WORDPRESS'],
+		'perfil'=> 'WORDPRESS'				
+	],
+	[
+		'title' => 'Curso de Unit Testing para MEAN con Jasmine',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1542-pruebas-unitarias/diploma/detalle/',
+		'img'		=> '/img/certificados/TestingparaMEANconJasmine.png',
+		'tech'	=> ['JS','ANGULAR','TEST'],
+		'perfil'=> 'FRONTEND'				
+	],
+	[
+		'title' => 'Curso Profesional de WordPress',
+		'url'		=> 'https://platzi.com/p/felix__blanco/course/1779-wordpress-profesional/diploma/detalle/',
+		'img'		=> '/img/certificados/ProfesionaWordPress.png',
+		'tech'	=> ['WORDPRESS'],
+		'perfil'=> 'WORDPRESS'				
+	],										
 ];
 
 $backends = [];
@@ -289,6 +389,13 @@ $frontends_landing = [];
 
 $complementos = [];
 $complementos_landing = [];
+
+$wordpress = [];
+$wordpress_landing = [];
+
+$englishs = [];
+$englishs_landing = [];
+
 
 foreach($certificaciones  as $certificacion){
 
@@ -304,6 +411,15 @@ foreach($certificaciones  as $certificacion){
 		array_push($complementos,$certificacion);	
 	}
 
+	if($certificacion['perfil'] == 'WORDPRESS'){		
+		array_push($wordpress,$certificacion);	
+	}	
+
+	if($certificacion['perfil'] == 'ENGLISH'){		
+		array_push($englishs,$certificacion);	
+	}	
+
+	
 }
 
 array_push($backends_landing,array_chunk($backends,4));
