@@ -47,10 +47,10 @@
 		<!-- next & Previus -->
 		<div class="row mt-2 justify-content-center">
 			<div class="col-md-6">
-				<div class="p-3 no-link"><h4><?php previous_post_link(); ?></h4></div>
+				<div class="p-3 a-link"><h4><?php previous_post_link(); ?></h4></div>
 			</div>
 			<div class="col-md-6 text-end">
-				<div class="p-3 no-link"><h4><?php next_post_link(); ?></h4></div>
+				<div class="p-3 a-link"><h4><?php next_post_link(); ?></h4></div>
 			</div>
 		</div>
 

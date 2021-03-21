@@ -29,7 +29,7 @@
           while ( $the_query->have_posts() ) : $the_query->the_post();
               ?>
               <div class="a-none">
-                <a href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>" style="text-decoration : none; color : black; ">
                   <div class="row justify-content-center mt-2 bg-white shadow">
                     <div class="col-md-4 p-2">
                     <?php the_post_thumbnail('post-thumbnails',['class'=>'img-fluid d-block mx-auto mt-4'])  ?>	          
@@ -49,7 +49,7 @@
           <?php endwhile; ?>
       
           <div class="row mt-4">
-            <div class="col-md-6">
+            <div class="col-md-6 a-none">
               <?php previous_posts_link( __( 'Atras', 'textdomain' ) ); ?>
             </div>
             <div class="col-md-6 text-end">
