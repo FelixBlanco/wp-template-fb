@@ -9,9 +9,12 @@
           <div>
             <h1 id="titulo">Felix Blanco</h1>
             <h4 id="sub-titulo">FULLSTACK DEVELLOPER</h4>
-            <p class="my-2 text-justify" id="descripcion-landing">
-              Desarrollo aplicaciones web y movil usando Laravel, Angular, ReactJs, Nodejs, Ionic y React Native. 
-              en mis tiempos libre desarrollo en mis proyectos personales. 
+            <p class="my-2" id="descripcion-landing">
+              Soy Desarrollador de Apps web\Móvil usando todo el poder de Angular, React, 
+              Laravel y Nodejs, desarrolle <a href="https://blancofelix.com/que-me-inspiro-a-desarrollar-bodega/" target="_blank">Bodega</a> 
+              y <a href="https://librogallero.com/" target="_blank">Libro Gallero</a> 
+              como proyectos personales y me gusta compartir mi conocimiento por internet. 
+
             </p>
             <div class="nav-social mt-2">
               <ul class="nav">

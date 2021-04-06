@@ -5,7 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <?php // wp_head(); ?>
-  <title><?php bloginfo('name')." - "; if(wp_title(' ', false)) { echo ' | '; } else { echo ' '.bloginfo('description'); } wp_title('') ." - "; ?></title>
+  <title><?php 
+    bloginfo('name');
+    echo " "; 
+    if(wp_title(' ', false)) { 
+      echo ' | '; 
+    } else { 
+      echo ' '.bloginfo('description'); 
+    } 
+    wp_title('') ." - "; ?></title>
 
 
   <meta name="description" content="Hola soy Felix Blanco, Fullstack Developer, escribiendo codigo desde hace + de cuatros años.">

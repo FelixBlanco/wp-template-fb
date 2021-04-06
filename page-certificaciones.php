@@ -9,7 +9,7 @@ get_header();
   <div class="row mt-5">
     <div class="col-md-12">
       <h2 class="title p-2">Certificaciones</h2>
-    </div>
+    </div>  
   </div>
 
   <div class="row mt-5">

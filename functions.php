@@ -44,6 +44,7 @@ $certificaciones = [
 		'title' => 'Curso de Introducción a Laravel',
 		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1842-intro-laravel-2020/diploma/detalle/',
 		'img'		=> '/img/certificados/intro-laravel.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-introduccion-laravel-d20f3aa8-53fc-4a0e-aa7f-69c750d4ccbb.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'
 	],
@@ -51,6 +52,7 @@ $certificaciones = [
 		'title' => 'Curso de API REST',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/api-rest/diploma/',
 		'img'		=> '/img/certificados/api-rest.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-api-rest-212c45cd-0b2b-4989-90c5-b489c0627de4.png',
 		'tech'	=> ['BACKEND'],
 		'perfil'=> 'BACKEND'
 	],
@@ -58,6 +60,7 @@ $certificaciones = [
 		'title' => 'Curso de Gestión de Dependencias y Paquetes con NPM',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/npm/diploma/',
 		'img'		=> '/img/certificados/npm.png',
+		
 		'tech'	=> ['JS'],
 		'perfil'=> 'FRONTEND'
 	],
@@ -65,6 +68,7 @@ $certificaciones = [
 		'title' => 'Curso de Manejo de Datos en Laravel con Eloquent ORM',
 		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1920-eloquent-laravel/diploma/detalle/',
 		'img'		=> '/img/certificados/orm.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-configurar-eloquent-model-laravel-68179995-fe12-4709-a62e-9a03d1483a20.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'
 	],
@@ -79,6 +83,7 @@ $certificaciones = [
 		'title' => 'Curso de PHP con Laravel',
 		'url'		=> 'https://platzi.com/@felix__blanco/curso/curso-php-laravel/diploma/',
 		'img'		=> '/img/certificados/php-laravel.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-laravel-ed7723f2-1ec9-4e5b-b4b5-ba70548083a5.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'		
 	],
@@ -148,9 +153,10 @@ $certificaciones = [
 		'perfil'=> 'FRONTEND'			
 	],				
 	[
-		'title' => 'Curso de Fundamentos de PHP',
-		'url'		=> 'https://platzi.com/@felix__blanco/curso/introduccion-php-2020/diploma/',
+		'title' => 'Curso de Introducción a PHP con Composer',
+		'url'		=> 'https://platzi.com/p/felix__blanco/curso/2024-php/diploma/detalle/',
 		'img'		=> '/img/certificados/FundamentsdePHP.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-intro-php-platzi-3508edb9-2e55-42d9-bbcc-e68bb9f8b78d.png',
 		'tech'	=> ['PHP'],
 		'perfil'=> 'BACKEND'					
 	],	
@@ -165,6 +171,7 @@ $certificaciones = [
 		'title' => 'Curso de Manejo de Datos en PHP',
 		'url'		=> 'https://platzi.com/p/felix__blanco/curso/2032-datos-php/diploma/detalle/',
 		'img'		=> '/img/certificados/CursodeManejodeDatosenPHP.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-manejodatos-php-f69add33-4465-4457-a81f-5e8dcbe3794c.png',
 		'tech'	=> ['PHP'],
 		'perfil'=> 'BACKEND'					
 	],																		
@@ -247,6 +254,7 @@ $certificaciones = [
 		'title' => 'Curso de Programación Orientada a Objetos: POO',
 		'url'		=> 'https://platzi.com/p/felix__blanco/curso/1474-oop/diploma/detalle/',
 		'img'		=> '/img/certificados/ProgramaciOnOrientadaObjetos.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badges-poo-513deb20-a5bd-40a7-b97a-c36dc772d512.png',
 		'tech'	=> ['PHP','COMPLEMENTO'],
 		'perfil'=> 'BACKEND'				
 	],	
@@ -326,6 +334,7 @@ $certificaciones = [
 		'title' => 'Curso de API REST con Laravel',
 		'url'		=> 'https://platzi.com/p/felix__blanco/course/2185-laravel-api/diploma/detalle/',
 		'img'		=> '/img/certificados/API-RESP-LARAVEL.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-api-rest-laravel-b7b91364-00ac-4f2b-8b2a-e30a95211d4b.png',
 		'tech'	=> ['PHP','LARAVEL'],
 		'perfil'=> 'BACKEND'				
 	],	
@@ -340,6 +349,7 @@ $certificaciones = [
 		'title' => 'Curso Básico de Python',
 		'url'		=> 'https://platzi.com/p/felix__blanco/course/1937-python/diploma/detalle/',
 		'img'		=> '/img/certificados/PYTHON-BASICO.png',
+		'img_mini' => 'https://static.platzi.com/media/achievements/badge-basico-python-bdcc67b3-031d-4dce-8e78-5699fb243149.png',
 		'tech'	=> ['PY'],
 		'perfil'=> 'BACKEND'				
 	],					

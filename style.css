@@ -28,11 +28,17 @@ h1,h2,h3,h4,h5,h6{
 
 #landing-content{
   margin-top: 7%;    
+  text-align: justify;
 }
 
 #navbarGeneral{
   margin-left: 3%;
 }
+
+a{
+  color: #0c4064;
+}
+
 .active{
   border-bottom: 1px solid #0c4064;
 }
